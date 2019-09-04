@@ -1,0 +1,18 @@
+language: c
+sudo: false # only for faster builds
+compiler: 
+-clang
+-gcc
+-script:
+- gcc -o test simple_calculator.c // we can use gcc instead of clang too
+- ./test
+- gcc -o test calculator.c // we can use gcc instead of clang too
+- ./test
+- gcc -o test simplecalci.c // we can use gcc instead of clang too
+- ./test
+- gcc -o test simplecali.c // we can use gcc instead of clang too
+- ./test
+- gcc -o test cal_141667.c // we can use gcc instead of clang too
+- ./test
+- gcc -o test Calculator.c // we can use gcc instead of clang too
+- ./test
