@@ -23,7 +23,7 @@ int main() {
             break;
         // operator doesn't match any case constant (+, -, *, /)
         default:
-            printf("Error! operator is not correct");
+            printf("Error! Operator is not correct");
     }
     
     return 0;
